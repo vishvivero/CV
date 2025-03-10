@@ -49,17 +49,17 @@ export default defineNuxtConfig({
       ],
       meta: [
         { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { name: "application-name", content: "Oh My CV!" },
+        { name: "application-name", content: "TailorMy.CV" },
         { name: "apple-mobile-web-app-title", content: "TailorMy.CV" },
         { name: "msapplication-TileColor", content: "#fff" },
-        { property: "og:url", content: "https://ohmycv.app" },
+        { property: "og:url", content: "https://tailormy.cv" },
         { property: "og:type", content: "website" }
       ]
     }
   },
 
   site: {
-    url: "https://ohmycv.app"
+    url: "https://tailormy.cv"
   },
 
   pwa

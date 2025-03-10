@@ -5,9 +5,39 @@
     xmlns="http://www.w3.org/2000/svg"
     :fill="$colorMode.unknown || $colorMode.value !== 'dark' ? '#1e293b' : '#e2e8f0'"
   >
-    <circle cx="15.672" cy="15.184" r="11.544" fill-opacity="0.15" />
+    <!-- Background circle with gradient -->
+    <defs>
+      <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.15" />
+        <stop offset="100%" style="stop-color:#2563eb;stop-opacity:0.15" />
+      </linearGradient>
+    </defs>
+    <circle cx="16" cy="16" r="15" fill="url(#logoGradient)" />
+    
+    <!-- Stylized "T" representing Tailor -->
     <path
-      d="M11.244 30.525c.532.036.656-.003 1.038-.165.241-.138.38-.35.499-.677l2.204-6.471c.068-.536 1.211-1.736 2.556-1.608.093.009.172.073.26.115 3.57 1.694 9.404 3.535 11.036.032.054-.116.099-.21.088-.324-.014-.154-.16-.311-.218-.386l-9.194-11.43 2.554-7.6a.456.456 0 0 0 .003-.288.394.394 0 0 0-.344-.26.503.503 0 0 0-.376.167L4.001 19.347c-.614.699-.878.905-.925 1.864-.039.79.357 1.251.646 1.623l6.538 7.135c.236.298.584.53.984.556Zm7.953-16.495a1.783 1.783 0 1 1-.003 3.565 1.783 1.783 0 0 1 .003-3.565Zm.294.529a.902.902 0 1 1 0 1.804.902.902 0 0 1 0-1.804Z"
+      d="M12 8h8v2h-3v12h-2V10h-3V8z"
+      fill="currentColor"
+    />
+    
+    <!-- Stylized "M" representing My -->
+    <path
+      d="M12 24h2l2-6 2 6h2l-3-8h-2l-3 8z"
+      fill="currentColor"
+    />
+    
+    <!-- Dot for CV -->
+    <circle
+      cx="22"
+      cy="16"
+      r="1.5"
+      fill="currentColor"
+    />
+    
+    <!-- Stylized "CV" -->
+    <path
+      d="M24 8h2v16h-2V8zM28 8h2v16h-2V8z"
+      fill="currentColor"
     />
   </svg>
 </template>
