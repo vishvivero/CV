@@ -1,0 +1,65 @@
+<svg width="600" height="800" viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="800" fill="white"/>
+  
+  <!-- Header Section -->
+  <rect x="50" y="50" width="500" height="100" fill="#f8f9fa"/>
+  <text x="70" y="90" font-family="Arial" font-size="24" font-weight="bold" fill="#7FDBA6">John Developer</text>
+  <text x="70" y="120" font-family="Arial" font-size="14" fill="#6c757d">Front-End Engineer | UI/UX Specialist</text>
+  
+  <!-- Contact Info -->
+  <circle cx="500" cy="80" r="5" fill="#7FDBA6"/>
+  <text x="515" y="85" font-family="Arial" font-size="12" fill="#6c757d">john@example.com</text>
+  <circle cx="500" cy="110" r="5" fill="#7FDBA6"/>
+  <text x="515" y="115" font-family="Arial" font-size="12" fill="#6c757d">(123) 456-7890</text>
+  
+  <!-- Experience Section -->
+  <text x="50" y="200" font-family="Arial" font-size="18" font-weight="bold" fill="#7FDBA6">EXPERIENCE</text>
+  <line x1="50" y1="210" x2="550" y2="210" stroke="#e9ecef" stroke-width="2"/>
+  
+  <!-- Job 1 -->
+  <text x="50" y="240" font-family="Arial" font-size="16" font-weight="bold" fill="#495057">Senior Front-End Developer</text>
+  <text x="50" y="260" font-family="Arial" font-size="14" fill="#6c757d">TechCorp Inc. | 2019 - Present</text>
+  <circle cx="70" cy="285" r="3" fill="#6c757d"/>
+  <text x="80" y="290" font-family="Arial" font-size="14" fill="#495057">Led development of responsive web applications</text>
+  <circle cx="70" cy="310" r="3" fill="#6c757d"/>
+  <text x="80" y="315" font-family="Arial" font-size="14" fill="#495057">Implemented CI/CD pipeline reducing deployment time by 40%</text>
+  <circle cx="70" cy="335" r="3" fill="#6c757d"/>
+  <text x="80" y="340" font-family="Arial" font-size="14" fill="#495057">Mentored junior developers and improved team productivity</text>
+  
+  <!-- Job 2 -->
+  <text x="50" y="380" font-family="Arial" font-size="16" font-weight="bold" fill="#495057">UI Developer</text>
+  <text x="50" y="400" font-family="Arial" font-size="14" fill="#6c757d">WebSolutions | 2016 - 2019</text>
+  <circle cx="70" cy="425" r="3" fill="#6c757d"/>
+  <text x="80" y="430" font-family="Arial" font-size="14" fill="#495057">Designed and implemented user interfaces for clients</text>
+  <circle cx="70" cy="450" r="3" fill="#6c757d"/>
+  <text x="80" y="455" font-family="Arial" font-size="14" fill="#495057">Created reusable component library used across projects</text>
+  
+  <!-- Education Section -->
+  <text x="50" y="500" font-family="Arial" font-size="18" font-weight="bold" fill="#7FDBA6">EDUCATION</text>
+  <line x1="50" y1="510" x2="550" y2="510" stroke="#e9ecef" stroke-width="2"/>
+  
+  <text x="50" y="540" font-family="Arial" font-size="16" font-weight="bold" fill="#495057">Bachelor of Science in Computer Science</text>
+  <text x="50" y="560" font-family="Arial" font-size="14" fill="#6c757d">University of Technology | 2012 - 2016</text>
+  
+  <!-- Skills Section -->
+  <text x="50" y="600" font-family="Arial" font-size="18" font-weight="bold" fill="#7FDBA6">SKILLS</text>
+  <line x1="50" y1="610" x2="550" y2="610" stroke="#e9ecef" stroke-width="2"/>
+  
+  <!-- Skill Bars -->
+  <text x="50" y="640" font-family="Arial" font-size="14" fill="#495057">JavaScript / TypeScript</text>
+  <rect x="250" y="630" width="300" height="15" fill="#f1f3f5" rx="7.5" ry="7.5"/>
+  <rect x="250" y="630" width="270" height="15" fill="#7FDBA6" rx="7.5" ry="7.5"/>
+  
+  <text x="50" y="670" font-family="Arial" font-size="14" fill="#495057">React / Vue</text>
+  <rect x="250" y="660" width="300" height="15" fill="#f1f3f5" rx="7.5" ry="7.5"/>
+  <rect x="250" y="660" width="240" height="15" fill="#7FDBA6" rx="7.5" ry="7.5"/>
+  
+  <text x="50" y="700" font-family="Arial" font-size="14" fill="#495057">UI/UX Design</text>
+  <rect x="250" y="690" width="300" height="15" fill="#f1f3f5" rx="7.5" ry="7.5"/>
+  <rect x="250" y="690" width="210" height="15" fill="#7FDBA6" rx="7.5" ry="7.5"/>
+  
+  <text x="50" y="730" font-family="Arial" font-size="14" fill="#495057">Node.js</text>
+  <rect x="250" y="720" width="300" height="15" fill="#f1f3f5" rx="7.5" ry="7.5"/>
+  <rect x="250" y="720" width="180" height="15" fill="#7FDBA6" rx="7.5" ry="7.5"/>
+</svg> 
