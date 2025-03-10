@@ -1,5 +1,16 @@
 {
-  "buildCommand": "cd site && pnpm build",
-  "installCommand": "pnpm install",
-  "outputDirectory": "site/.output"
+  "version": 2,
+  "builds": [
+    {
+      "src": "site/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": ".output",
+        "buildCommand": "cd .. && pnpm install && cd site && pnpm build"
+      }
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/site/.output/$1" }
+  ]
 } 
