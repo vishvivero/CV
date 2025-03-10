@@ -5,7 +5,8 @@ open_toolbar: Open toolbar
 close_toolbar: Close toolbar
 
 head:
-  title: Oh My CV! - Free Online Resume Maker
+  title: "TailorMy.CV - Professional CV Builder"
+  description: "Create professional, beautifully formatted CVs with ease using Markdown"
   desc: Free online resume maker, allows you to create your resume in minutes with Markdown!
   keywords: resume maker, cv maker, curriculum vitae maker, markdown resume
 

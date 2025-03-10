@@ -1,60 +1,130 @@
-# Oh My CV!
+# TailorMy.CV
 
-Microsoft Word and LaTeX are too overkill for a resume.
+A modern, powerful, and easy-to-use CV builder.
 
-So, why not write it in Markdown?
+## About
 
-Have fun: [ohmycv.app](https://ohmycv.app/)
-
-
-&nbsp;
-
-## Important Notice
-
-- Highly recommend using **Chromium-based browsers**, e.g., [Chrome](https://www.google.com/chrome/) and [Microsoft Edge](https://www.microsoft.com/en-us/edge).
-- **Backup your data**: Cloud backup is coming soon, but isn't available yet. For now, please regularly export and back up your data by clicking the `Save As` button.
-
-
-&nbsp;
+TailorMy.CV is a modern, powerful, and easy-to-use CV builder. While it builds upon the excellent foundation of oh-my-cv, it is being actively developed in a new direction with its own unique features and improvements.
 
 ## Features
 
-- Write your resume in Markdown and enjoy a real-time preview — it's smooth!
-- Export to PDF in A4 and US Letter sizes
-- Automatically paginate your resume like in Microsoft Word
-- Customize page margins, theme colors, line heights, fonts, and more
-- Pick any fonts from [Google Fonts](https://fonts.google.com/)
-- Easily add icons using [Iconify](https://github.com/iconify/iconify) (search for icons on [Icônes](https://icones.js.org/))
-- Tex support ([KaTeX](https://github.com/KaTeX/KaTeX))
-- Add cross-references (ideal for academic CVs)
-- Correct casing automatically (e.g., 'Github' to 'GitHub')
-- Insert line breaks (`\\[10px]`) or start a new page (`\newpage`) just as you would in LaTeX
-- Customize CSS
-- Manage multiple resumes
-- It works offline ([PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps))
-- Your data in your hands:
-  - All data is saved locally in your browser (see [here](https://localforage.github.io/localForage/) for details)
-  - Hosted on [Github Pages](https://pages.github.com/) as an open-source static website, which doesn't (have the ability to) collect your data
-  - No user tracking or ads
-- Dark mode
+- Create and manage multiple resumes
+- Real-time preview
+- Export to PDF
+- Highly customizable
+- Easy font switching and icon adding
+- And more...
 
+## Acknowledgments
 
-&nbsp;
+This project is a fork of [oh-my-cv](https://github.com/Renovamen/oh-my-cv), customized and enhanced to better serve our users' needs. We thank the original authors for their excellent work.
 
-## Contribution
+## 🌟 Features
 
-Contributions are welcome. Please read this [Contributing Guide](.github/CONTRIBUTING.md) before getting started. Thanks!
+- **Markdown-Powered**: Write your CV in simple Markdown and see it transform in real-time
+- **Professional Templates**: Choose from carefully designed templates that follow industry standards
+- **Smart Formatting**:
+  - Automatic pagination for perfect page breaks
+  - Intelligent casing corrections (e.g., 'Github' to 'GitHub')
+  - LaTeX-style spacing controls (`\\[10px]`) and page breaks (`\newpage`)
+- **Customization Options**:
+  - Adjustable margins and line heights
+  - Custom color themes
+  - Google Fonts integration
+  - Icon support via Iconify
+  - Custom CSS capabilities
+- **Multiple Export Options**:
+  - PDF export in A4 and US Letter sizes
+  - Responsive design for digital viewing
+- **Privacy First**:
+  - Local browser storage for your data
+  - No data collection or tracking
+  - Completely offline capable (PWA)
+- **Academic Features**:
+  - LaTeX math support via KaTeX
+  - Cross-referencing support
+  - Perfect for academic CVs and publications
 
+## 🚀 Getting Started
 
-&nbsp;
+1. Visit [TailorMy.CV](https://tailormy.cv)
+2. Start writing your CV in Markdown
+3. Customize the appearance to match your style
+4. Export to PDF or share digitally
 
-## Credits
+## 💾 Data Security
 
-- [billryan/resume](https://github.com/billryan/resume)
+Your privacy matters to us:
+- All CV data is stored locally in your browser
+- No cloud storage or data collection
+- Export your data regularly using the 'Save As' feature for backup
 
+## 🌐 Browser Compatibility
 
-&nbsp;
+For the best experience, we recommend using Chromium-based browsers:
+- Google Chrome
+- Microsoft Edge
+- Other Chromium-based browsers
 
-## License
+## 🚀 Deployment
 
-[GPL-3.0](LICENSE)
+### Deploying to Vercel
+
+TailorMy.CV is designed to be easily deployed to Vercel. Follow these steps:
+
+1. Fork or clone this repository
+2. Connect your repo to Vercel through their dashboard
+3. Use the following settings in Vercel:
+   - Framework Preset: `Nuxt.js`
+   - Build Command: (Vercel will automatically use `pnpm build:packages && pnpm --filter="site" build`)
+   - Output Directory: `site/.output/public`
+   - Install Command: `pnpm install`
+
+If you need to use Google Fonts API:
+1. Obtain a Google Fonts API key from [Google Developers Console](https://developers.google.com/fonts/docs/developer_api)
+2. Add the following environment variable in Vercel:
+   - Name: `NUXT_PUBLIC_GOOGLE_FONTS_KEY`
+   - Value: Your Google Fonts API key
+
+That's it! Vercel will handle the build process and deployment automatically.
+
+## 🛠️ Development Setup
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/TailorMyCV.git
+   cd TailorMyCV
+   ```
+
+2. Install dependencies
+   ```bash
+   pnpm install
+   ```
+
+3. Build the packages
+   ```bash
+   pnpm build:packages
+   ```
+
+4. Start the development server
+   ```bash
+   cd site && pnpm dev
+   ```
+
+## 🤝 Contributing
+
+We welcome contributions! If you'd like to help improve TailorMy.CV:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 👤 Maintainership
+
+TailorMy.CV is currently maintained by [vishvivero](https://github.com/vishvivero). While this project builds upon the excellent foundation of oh-my-cv, it is being actively developed in a new direction with its own unique features and improvements.
+
+## 📄 License
+
+This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
