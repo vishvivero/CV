@@ -5,39 +5,34 @@
     xmlns="http://www.w3.org/2000/svg"
     :fill="$colorMode.unknown || $colorMode.value !== 'dark' ? '#1e293b' : '#e2e8f0'"
   >
-    <!-- Background circle with gradient -->
+    <!-- Background shape with gradient -->
     <defs>
       <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" style="stop-color:#7FDBA6;stop-opacity:0.15" />
-        <stop offset="100%" style="stop-color:#5AC88D;stop-opacity:0.15" />
+        <stop offset="0%" style="stop-color:#7FDBA6;stop-opacity:0.8" />
+        <stop offset="100%" style="stop-color:#5AC88D;stop-opacity:0.8" />
       </linearGradient>
+      <clipPath id="roundedRect">
+        <rect x="2" y="2" width="28" height="28" rx="8" ry="8" />
+      </clipPath>
     </defs>
-    <circle cx="16" cy="16" r="15" fill="url(#logoGradient)" />
     
-    <!-- Stylized "T" representing Tailor -->
-    <path
-      d="M12 8h8v2h-3v12h-2V10h-3V8z"
-      fill="currentColor"
-    />
+    <!-- Rounded rectangle background -->
+    <rect x="2" y="2" width="28" height="28" rx="8" ry="8" fill="url(#logoGradient)" />
     
-    <!-- Stylized "M" representing My -->
-    <path
-      d="M12 24h2l2-6 2 6h2l-3-8h-2l-3 8z"
-      fill="currentColor"
-    />
-    
-    <!-- Dot for CV -->
-    <circle
-      cx="22"
-      cy="16"
-      r="1.5"
-      fill="currentColor"
-    />
-    
-    <!-- Stylized "CV" -->
-    <path
-      d="M24 8h2v16h-2V8zM28 8h2v16h-2V8z"
-      fill="currentColor"
-    />
+    <!-- Stylized "TM.CV" text -->
+    <g fill="#FFFFFF" transform="translate(4, 7)">
+      <!-- T -->
+      <path d="M2 2h6v2H6v12H4V4H2V2z" />
+      
+      <!-- M -->
+      <path d="M9 2h2v8l2-4 2 4V2h2v14h-2l-2-6-2 6h-2V2z" />
+      
+      <!-- Dot -->
+      <circle cx="19" cy="15" r="1" />
+      
+      <!-- CV -->
+      <path d="M21 2c1.1 0 2 0.9 2 2v10c0 1.1-0.9 2-2 2s-2-0.9-2-2V4c0-1.1 0.9-2 2-2z" />
+      <path d="M25 2c1.1 0 2 0.9 2 2v10c0 1.1-0.9 2-2 2s-2-0.9-2-2V4c0-1.1 0.9-2 2-2z" />
+    </g>
   </svg>
 </template>
