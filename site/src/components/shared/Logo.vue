@@ -8,8 +8,8 @@
     <!-- Background circle with gradient -->
     <defs>
       <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.15" />
-        <stop offset="100%" style="stop-color:#2563eb;stop-opacity:0.15" />
+        <stop offset="0%" style="stop-color:#7FDBA6;stop-opacity:0.15" />
+        <stop offset="100%" style="stop-color:#5AC88D;stop-opacity:0.15" />
       </linearGradient>
     </defs>
     <circle cx="16" cy="16" r="15" fill="url(#logoGradient)" />

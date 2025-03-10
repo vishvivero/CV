@@ -30,11 +30,13 @@ export default defineConfig({
         :root {
           --success: 142 71% 29%;
           --info: 224 77% 48%;
+          --mint: 157 58% 67%;
         }
 
         .dark {
           --success: 142 76% 40%;
           --info: 209 87% 57%;
+          --mint: 157 58% 67%;
         }
       `
     }
@@ -47,7 +49,9 @@ export default defineConfig({
     },
     colors: {
       success: "hsl(var(--success))",
-      info: "hsl(var(--info))"
+      info: "hsl(var(--info))",
+      mint: "hsl(var(--mint))",
+      primary: "#7FDBA6"
     }
   },
   presets: [
@@ -67,7 +71,7 @@ export default defineConfig({
     presetShadcn(
       {
         color: {
-          base: "orange",
+          base: "green",
           light: {
             background: "0 0% 100%",
             foreground: "215 25% 27%",
