@@ -7,10 +7,6 @@ export const DEFAULT_STYLES = {
   lineHeight: 1.3,
   paragraphSpace: 5,
   themeColor: "#7FDBA6",
-  fontCJK: {
-    name: "华康宋体",
-    fontFamily: "HKST"
-  },
   fontEN: {
     name: "Minion Pro"
   },

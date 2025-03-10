@@ -1,6 +1,6 @@
 <template>
   <div class="flex gap-2">
-    <UiButton @click="exportToJSON">
+    <UiButton @click="exportToJSON" class="text-base bg-[#7FDBA6] text-white hover:bg-[#6BC895] transition-colors">
       <span i-ic:baseline-save-as size-4 mr-1 />
       {{ $t("dashboard.saveas") }}
     </UiButton>

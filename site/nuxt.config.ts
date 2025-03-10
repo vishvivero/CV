@@ -62,5 +62,6 @@ export default defineNuxtConfig({
     url: "https://tailormy.cv"
   },
 
-  pwa
+  pwa,
+  compatibilityDate: "2025-03-10"
 });

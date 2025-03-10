@@ -1,20 +1,13 @@
 <svg viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" fill="#000">
-  <!-- Rounded rectangle background -->
-  <rect x="12" y="12" width="168" height="168" rx="48" ry="48" />
+  <!-- Background square -->
+  <rect x="0" y="0" width="192" height="192" rx="24" ry="24" />
   
-  <!-- Stylized "TM.CV" text -->
-  <g fill="#FFF" transform="translate(24, 42) scale(6)">
-    <!-- T -->
-    <path d="M2 2h6v2H6v12H4V4H2V2z" />
+  <!-- T letter in white -->
+  <g fill="#FFF">
+    <!-- Top bar of T -->
+    <rect x="36" y="36" width="120" height="36" rx="6" ry="6" />
     
-    <!-- M -->
-    <path d="M9 2h2v8l2-4 2 4V2h2v14h-2l-2-6-2 6h-2V2z" />
-    
-    <!-- Dot -->
-    <circle cx="19" cy="15" r="1" />
-    
-    <!-- CV -->
-    <path d="M21 2c1.1 0 2 0.9 2 2v10c0 1.1-0.9 2-2 2s-2-0.9-2-2V4c0-1.1 0.9-2 2-2z" />
-    <path d="M25 2c1.1 0 2 0.9 2 2v10c0 1.1-0.9 2-2 2s-2-0.9-2-2V4c0-1.1 0.9-2 2-2z" />
+    <!-- Stem of T -->
+    <rect x="78" y="72" width="36" height="84" rx="6" ry="6" />
   </g>
 </svg>

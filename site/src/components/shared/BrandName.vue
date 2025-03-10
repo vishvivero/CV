@@ -1,6 +1,6 @@
 <template>
   <span class="brand-name" font-sans font-bold text-xl tracking-tight>
-    TailorMy<span class="text-[#7FDBA6]">.CV</span>
+    Tailor<span class="text-[#00C853]">My.CV</span>
   </span>
 </template>
 
